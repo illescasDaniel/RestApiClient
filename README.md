@@ -30,6 +30,4 @@ todoClientService.create(body: createBody) { response in
 		print(message, response ?? "")
 	}
 }
-
-// ...
 ```
