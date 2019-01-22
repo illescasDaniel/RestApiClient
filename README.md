@@ -16,7 +16,7 @@ associatedtype DeleteRequestType: RestApiClientQueryRequest
 ```
 
 Once you do that, you can start retrieving data from the endpoints:
-````swift
+```swift
 let todoClientService = TODOClientService()
 
 let createBody = TODOClientService.CreateBodyType(title: "Test", body: "bodytest", userId: 1)
