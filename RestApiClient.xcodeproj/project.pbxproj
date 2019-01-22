@@ -7,7 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6510B1A821F78605003A17EB /* RestApiClientCRUDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6510B1A721F78605003A17EB /* RestApiClientCRUDService.swift */; };
+		6510B1AA21F78947003A17EB /* TODOClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6510B1A921F78947003A17EB /* TODOClientService.swift */; };
 		65B5916C21EF833C0053B2C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5916B21EF833C0053B2C3 /* main.swift */; };
+		65B5917421EF83620053B2C3 /* RestApiClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5917321EF83620053B2C3 /* RestApiClientProtocol.swift */; };
+		65B5917721EF8B0D0053B2C3 /* RestApiClientQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5917621EF8B0D0053B2C3 /* RestApiClientQueryRequest.swift */; };
+		65B5917921EF8B690053B2C3 /* RestApiClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5917821EF8B690053B2C3 /* RestApiClientResponse.swift */; };
+		65B5917B21EF8B8B0053B2C3 /* RestApiClientHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5917A21EF8B8B0053B2C3 /* RestApiClientHeaders.swift */; };
+		65B5917D21EF8F840053B2C3 /* RestApiClientHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5917C21EF8F840053B2C3 /* RestApiClientHTTPMethod.swift */; };
+		65B5917F21EF90070053B2C3 /* RestApiClientSendResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5917E21EF90070053B2C3 /* RestApiClientSendResponse.swift */; };
+		65B5918321EF94720053B2C3 /* TODOApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5918221EF94720053B2C3 /* TODOApiClient.swift */; };
+		65B5918521EF94970053B2C3 /* TODOPostComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5918421EF94970053B2C3 /* TODOPostComment.swift */; };
+		65B5918721EF958A0053B2C3 /* TODOGetComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5918621EF958A0053B2C3 /* TODOGetComment.swift */; };
+		65B5918C21F06B030053B2C3 /* RestApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5918B21F06B030053B2C3 /* RestApiClient.swift */; };
+		65B5918F21F06CAE0053B2C3 /* RestApiClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5918E21F06CAE0053B2C3 /* RestApiClientService.swift */; };
+		65B5919121F076B70053B2C3 /* RestApiClientProtocolDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919021F076B70053B2C3 /* RestApiClientProtocolDetails.swift */; };
+		65B5919321F0927A0053B2C3 /* TODOPutComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919221F0927A0053B2C3 /* TODOPutComment.swift */; };
+		65B5919521F095030053B2C3 /* TODOPatchComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919421F095030053B2C3 /* TODOPatchComment.swift */; };
+		65B5919721F095840053B2C3 /* TODODeleteComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919621F095840053B2C3 /* TODODeleteComment.swift */; };
+		65B5919921F097650053B2C3 /* URLResponse+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919821F097650053B2C3 /* URLResponse+extensions.swift */; };
+		65B5919C21F097DB0053B2C3 /* RestApiClientStatusCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5919B21F097DB0053B2C3 /* RestApiClientStatusCodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +42,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6510B1A721F78605003A17EB /* RestApiClientCRUDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientCRUDService.swift; sourceTree = "<group>"; };
+		6510B1A921F78947003A17EB /* TODOClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOClientService.swift; sourceTree = "<group>"; };
 		65B5916821EF833C0053B2C3 /* RestApiClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RestApiClient; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B5916B21EF833C0053B2C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65B5917321EF83620053B2C3 /* RestApiClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientProtocol.swift; sourceTree = "<group>"; };
+		65B5917621EF8B0D0053B2C3 /* RestApiClientQueryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientQueryRequest.swift; sourceTree = "<group>"; };
+		65B5917821EF8B690053B2C3 /* RestApiClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientResponse.swift; sourceTree = "<group>"; };
+		65B5917A21EF8B8B0053B2C3 /* RestApiClientHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientHeaders.swift; sourceTree = "<group>"; };
+		65B5917C21EF8F840053B2C3 /* RestApiClientHTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientHTTPMethod.swift; sourceTree = "<group>"; };
+		65B5917E21EF90070053B2C3 /* RestApiClientSendResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientSendResponse.swift; sourceTree = "<group>"; };
+		65B5918221EF94720053B2C3 /* TODOApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOApiClient.swift; sourceTree = "<group>"; };
+		65B5918421EF94970053B2C3 /* TODOPostComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOPostComment.swift; sourceTree = "<group>"; };
+		65B5918621EF958A0053B2C3 /* TODOGetComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOGetComment.swift; sourceTree = "<group>"; };
+		65B5918B21F06B030053B2C3 /* RestApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClient.swift; sourceTree = "<group>"; };
+		65B5918E21F06CAE0053B2C3 /* RestApiClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientService.swift; sourceTree = "<group>"; };
+		65B5919021F076B70053B2C3 /* RestApiClientProtocolDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientProtocolDetails.swift; sourceTree = "<group>"; };
+		65B5919221F0927A0053B2C3 /* TODOPutComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOPutComment.swift; sourceTree = "<group>"; };
+		65B5919421F095030053B2C3 /* TODOPatchComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOPatchComment.swift; sourceTree = "<group>"; };
+		65B5919621F095840053B2C3 /* TODODeleteComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODODeleteComment.swift; sourceTree = "<group>"; };
+		65B5919821F097650053B2C3 /* URLResponse+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLResponse+extensions.swift"; sourceTree = "<group>"; };
+		65B5919B21F097DB0053B2C3 /* RestApiClientStatusCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiClientStatusCodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6510B1A621F78554003A17EB /* RestApiClientService */ = {
+			isa = PBXGroup;
+			children = (
+				65B5918E21F06CAE0053B2C3 /* RestApiClientService.swift */,
+				6510B1A721F78605003A17EB /* RestApiClientCRUDService.swift */,
+			);
+			path = RestApiClientService;
+			sourceTree = "<group>";
+		};
 		65B5915F21EF833C0053B2C3 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +104,75 @@
 		65B5916A21EF833C0053B2C3 /* RestApiClient */ = {
 			isa = PBXGroup;
 			children = (
+				65B5918021EF944E0053B2C3 /* TODO */,
+				6510B1A621F78554003A17EB /* RestApiClientService */,
+				65B5917221EF83550053B2C3 /* RestApiClient */,
 				65B5916B21EF833C0053B2C3 /* main.swift */,
 			);
 			path = RestApiClient;
+			sourceTree = "<group>";
+		};
+		65B5917221EF83550053B2C3 /* RestApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				65B5919A21F0976B0053B2C3 /* Extensions */,
+				65B5917521EF8AFA0053B2C3 /* Details */,
+				65B5917321EF83620053B2C3 /* RestApiClientProtocol.swift */,
+			);
+			path = RestApiClient;
+			sourceTree = "<group>";
+		};
+		65B5917521EF8AFA0053B2C3 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				65B5918A21F06AD80053B2C3 /* RestApiClient */,
+				65B5917621EF8B0D0053B2C3 /* RestApiClientQueryRequest.swift */,
+				65B5917821EF8B690053B2C3 /* RestApiClientResponse.swift */,
+				65B5919021F076B70053B2C3 /* RestApiClientProtocolDetails.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		65B5918021EF944E0053B2C3 /* TODO */ = {
+			isa = PBXGroup;
+			children = (
+				65B5918D21F06B720053B2C3 /* TODOApiClient */,
+				6510B1A921F78947003A17EB /* TODOClientService.swift */,
+			);
+			path = TODO;
+			sourceTree = "<group>";
+		};
+		65B5918A21F06AD80053B2C3 /* RestApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				65B5918B21F06B030053B2C3 /* RestApiClient.swift */,
+				65B5917A21EF8B8B0053B2C3 /* RestApiClientHeaders.swift */,
+				65B5917C21EF8F840053B2C3 /* RestApiClientHTTPMethod.swift */,
+				65B5917E21EF90070053B2C3 /* RestApiClientSendResponse.swift */,
+				65B5919B21F097DB0053B2C3 /* RestApiClientStatusCodes.swift */,
+			);
+			name = RestApiClient;
+			sourceTree = "<group>";
+		};
+		65B5918D21F06B720053B2C3 /* TODOApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				65B5918221EF94720053B2C3 /* TODOApiClient.swift */,
+				65B5918421EF94970053B2C3 /* TODOPostComment.swift */,
+				65B5918621EF958A0053B2C3 /* TODOGetComment.swift */,
+				65B5919221F0927A0053B2C3 /* TODOPutComment.swift */,
+				65B5919421F095030053B2C3 /* TODOPatchComment.swift */,
+				65B5919621F095840053B2C3 /* TODODeleteComment.swift */,
+			);
+			path = TODOApiClient;
+			sourceTree = "<group>";
+		};
+		65B5919A21F0976B0053B2C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65B5919821F097650053B2C3 /* URLResponse+extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +232,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B5918521EF94970053B2C3 /* TODOPostComment.swift in Sources */,
 				65B5916C21EF833C0053B2C3 /* main.swift in Sources */,
+				6510B1A821F78605003A17EB /* RestApiClientCRUDService.swift in Sources */,
+				65B5917421EF83620053B2C3 /* RestApiClientProtocol.swift in Sources */,
+				65B5919121F076B70053B2C3 /* RestApiClientProtocolDetails.swift in Sources */,
+				65B5918F21F06CAE0053B2C3 /* RestApiClientService.swift in Sources */,
+				65B5917721EF8B0D0053B2C3 /* RestApiClientQueryRequest.swift in Sources */,
+				65B5919C21F097DB0053B2C3 /* RestApiClientStatusCodes.swift in Sources */,
+				65B5917D21EF8F840053B2C3 /* RestApiClientHTTPMethod.swift in Sources */,
+				65B5917B21EF8B8B0053B2C3 /* RestApiClientHeaders.swift in Sources */,
+				65B5919521F095030053B2C3 /* TODOPatchComment.swift in Sources */,
+				65B5918321EF94720053B2C3 /* TODOApiClient.swift in Sources */,
+				6510B1AA21F78947003A17EB /* TODOClientService.swift in Sources */,
+				65B5918C21F06B030053B2C3 /* RestApiClient.swift in Sources */,
+				65B5918721EF958A0053B2C3 /* TODOGetComment.swift in Sources */,
+				65B5919321F0927A0053B2C3 /* TODOPutComment.swift in Sources */,
+				65B5917921EF8B690053B2C3 /* RestApiClientResponse.swift in Sources */,
+				65B5919721F095840053B2C3 /* TODODeleteComment.swift in Sources */,
+				65B5917F21EF90070053B2C3 /* RestApiClientSendResponse.swift in Sources */,
+				65B5919921F097650053B2C3 /* URLResponse+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
